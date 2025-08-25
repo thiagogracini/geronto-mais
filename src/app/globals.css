@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pink-first: #dd1b6a;
+  --color-pink-second: #e54d8a;
+  --color-pink-third: #f68cb6;
+  --color-pink-fourth: #9d081f;
+  --color-pink-fifth: #fff0f6;
+  --color-pink-sixth: #f8ebf0;
+  --color-gray-900: #514b4e;
+  --color-gray-600: #877b81;
+  --color-gray-700: #6f666b;
+  --color-gray-400: #b9b0b4;
+  --font-montserrat: Montserrat, sans-serif;
+  --spacing: 0.0625rem;
+
+  /* Media Queries */
+  --breakpoint-*: initial;
+  --breakpoint-tablet: 640px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-desktop: 1280px;
+}
+
+.max-w-grid {
+  @apply max-w-[77.5rem];
+}
